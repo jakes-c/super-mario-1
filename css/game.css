@@ -1,0 +1,66 @@
+html, body, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #5C94FC;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  z-index: 100;
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+.links {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  z-index: 100;
+  background-color: rgba(0,0,0,0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.links a {
+  color: #FFD700;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
